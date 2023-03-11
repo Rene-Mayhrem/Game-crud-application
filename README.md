@@ -11,17 +11,27 @@
 
 ### Prerequisites
 
-You need to be able to use docker-compose
+You need to have installed:
+
+* Ubuntu wsl
+* Docker integration with ubuntu (if you are in windows)
+* docker-compose installed
 
 ### How to use the project
 
-1. Enter to the GAME-APP folder
-   
-3. Up the containers
+1. Download this repository
 
-    docker-compose up
+2. Enter to the GAME-APP folder
+   
+3. Create a sail alias
+
+    alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
     
-4. Start the application at localhost/games
+4. Run the docker-compose file by using the following command
+
+    sail up
+
+5. Start the application at localhost/games
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
