@@ -16,8 +16,13 @@ You need to be able to use docker-compose
 ### How to up the project
 
 1. Enter to the GAME-APP folder
-2. Create an alias for simplicity
+2. Create an alias for simplicity enter the following command on terminal 
+
+    alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+   
 3. Up the containers
+
+    sail up
 4. Start the application at localhost/games
 ## About Laravel
 
