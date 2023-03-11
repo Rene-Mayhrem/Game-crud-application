@@ -19,9 +19,9 @@ You need to have installed:
 
 ### How to use the project
 
-1. Download this repository
+1. Download this repository inside of the ubuntu wsl terminal (if you are in windows)
 
-2. Enter to the GAME-APP folder
+2. Enter to the GAME-APP folder inside of the terminal linux 
    
 3. Create a sail alias
 
