@@ -13,7 +13,7 @@
 
 You need to be able to use docker-compose
 
-### How to up the project
+### How to use the project
 
 1. Enter to the GAME-APP folder
 2. Create an alias for simplicity enter the following command on terminal 
